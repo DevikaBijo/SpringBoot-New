@@ -23,21 +23,21 @@ public final class Employee$ {
         false
     );
     /**
-     * This Field corresponds to the {@link Employee} field dept.
-     */
-    public static final StringField<Employee> dept = StringField.create(
-        Employee.class,
-        "dept",
-        Employee::getDept,
-        false
-    );
-    /**
      * This Field corresponds to the {@link Employee} field name.
      */
     public static final StringField<Employee> name = StringField.create(
         Employee.class,
         "name",
         Employee::getName,
+        false
+    );
+    /**
+     * This Field corresponds to the {@link Employee} field dept.
+     */
+    public static final StringField<Employee> dept = StringField.create(
+        Employee.class,
+        "dept",
+        Employee::getDept,
         false
     );
     /**
